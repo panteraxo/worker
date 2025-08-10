@@ -3,7 +3,7 @@ export default {
     const url = new URL(request.url);
     
     // Reemplaza con la URL de tu proyecto de Astro en Pages
-    const targetUrl = 'https://podo-trenner.pankthera.workers.dev';
+    const targetUrl = 'https://podologies.pages.dev';
     
     const newUrl = targetUrl + url.pathname + url.search;
     
